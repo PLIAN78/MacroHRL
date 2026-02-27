@@ -27,7 +27,7 @@ The system uses a **two-level hierarchical architecture**:
 
 Below is the MacroHRL framework pipeline:
 
-![MacroHRL Architecture](figures/architecture.png)
+![MacroHRL Architecture](figures/fig7_architecture.png)
 
 The system consists of:
 
