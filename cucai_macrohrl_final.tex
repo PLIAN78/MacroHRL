@@ -102,7 +102,7 @@ Risk-Aversion ($\lambda$) & -- & 0.1 \\
 
 \subsection{Drawdown and Risk Analysis}
 The primary metric for MacroHRL is its ability to mitigate downside risk. As shown in Table \ref{tab:results}, MacroHRL achieves a maximum drawdown of only -9.26\% during the 2023--2025 test period. In contrast, the SPY benchmark suffered a drawdown of -18.76\%. This 51\% reduction in peak-to-trough loss is a direct result of the hierarchical specialization and CVaR-penalized training.
-
+All performance plots compare MacroHRL solely against the SPY buy-and-hold benchmark; equal-weight portfolio baselines are omitted for clarity and to focus on institutional relevance.
 \begin{table}[h]
 \centering
 \caption{Out-of-Sample Performance (2023--2025)}
@@ -119,12 +119,11 @@ Buy-and-Hold SPY & 1.616 & 24.80\% & -18.76\% & 1.322 \\
 }
 \end{table}
 
-While the absolute return of SPY was higher during this exceptionally strong bull market, MacroHRL's Calmar ratio of 1.448 (vs. SPY's 1.322) demonstrates superior efficiency in generating returns relative to the risk taken. Figure \ref{fig:pv} shows the portfolio evolution, where MacroHRL exhibits a significantly smoother equity curve.
-
+While the absolute return of SPY was higher during this exceptionally strong bull market, MacroHRL's Calmar ratio of 1.448 (vs. SPY's 1.322) demonstrates superior efficiency in generating returns relative to the risk taken. Figure \ref{fig:pv} shows the portfolio evolution compared directly against the SPY benchmark, where MacroHRL exhibits a significantly smoother equity curve.
 \begin{figure}[h]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig1_portfolio_values.png}
-\caption{Portfolio value comparison. MacroHRL maintains a steady upward trajectory with significantly lower volatility than the benchmark.}
+\caption{Portfolio value comparison between MacroHRL and the SPY benchmark. MacroHRL maintains a steady upward trajectory with significantly lower volatility.}
 \label{fig:pv}
 \end{figure}
 
@@ -133,7 +132,7 @@ Figure \ref{fig:dd} highlights the core contribution of this work: the consisten
 \begin{figure}[h]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig2_drawdown.png}
-\caption{Drawdown comparison. MacroHRL consistently limits downside exposure, maintaining a maximum drawdown less than half that of the SPY benchmark.}
+\caption{Drawdown comparison between MacroHRL and the SPY benchmark. MacroHRL consistently limits downside exposure, maintaining a maximum drawdown less than half that of SPY.}
 \label{fig:dd}
 \end{figure}
 
