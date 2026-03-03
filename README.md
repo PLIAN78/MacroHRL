@@ -170,6 +170,10 @@ n4nayak@uwaterloo.ca
 University of Waterloo  
 plian@uwaterloo.ca 
 
+**Tony Xia**
+University of Waterloo
+t48xia@uwaterloo.ca
+
 ---
 
 ## ⭐ Quick Summary
