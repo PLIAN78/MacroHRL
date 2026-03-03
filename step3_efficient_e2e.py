@@ -245,7 +245,6 @@ def metrics(df):
 results = {
     'MacroHRL (E2E)':    metrics(hrl_df),
     'Buy-and-Hold SPY':  metrics(spy_df),
-    'Equal Weight (1/N)':metrics(ew_df),
 }
 
 print("\n=== RESULTS ===")
@@ -270,7 +269,7 @@ import matplotlib.pyplot as plt
 fig, ax = plt.subplots(figsize=(7, 3.5))
 ax.plot(hrl_df.index, hrl_df['pv'], label='MacroHRL (E2E)', color='#1f77b4', lw=1.8)
 ax.plot(spy_df.index, spy_df['pv'], label='Buy-and-Hold SPY', color='#ff7f0e', lw=1.2, ls='--')
-ax.plot(ew_df.index,  ew_df['pv'],  label='Equal Weight (1/N)', color='#2ca02c', lw=1.2, ls=':')
+# ax.plot(ew_df.index,  ew_df['pv'],  label='Equal Weight (1/N)', color='#2ca02c', lw=1.2, ls=':')
 ax.set_title('MacroHRL vs. Baselines: Portfolio Value (2023-2025)', fontsize=10)
 ax.set_ylabel('Portfolio Value (USD)')
 ax.legend(fontsize=8); ax.grid(alpha=0.3)
@@ -282,7 +281,7 @@ def calc_dd(pv): return (pv - pv.cummax()) / pv.cummax()
 fig, ax = plt.subplots(figsize=(7, 3.0))
 ax.fill_between(hrl_df.index, calc_dd(hrl_df['pv'])*100, 0, alpha=0.5, label='MacroHRL (E2E)', color='#1f77b4')
 ax.fill_between(spy_df.index, calc_dd(spy_df['pv'])*100, 0, alpha=0.3, label='Buy-and-Hold SPY', color='#ff7f0e')
-ax.fill_between(ew_df.index,  calc_dd(ew_df['pv'])*100,  0, alpha=0.3, label='Equal Weight', color='#2ca02c')
+# ax.fill_between(ew_df.index,  calc_dd(ew_df['pv'])*100,  0, alpha=0.3, label='Equal Weight', color='#2ca02c')
 ax.set_title('Portfolio Drawdown Comparison (2023-2025)', fontsize=10)
 ax.set_ylabel('Drawdown (%)'); ax.legend(fontsize=8); ax.grid(alpha=0.3)
 plt.tight_layout()

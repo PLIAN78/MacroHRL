@@ -1,0 +1,52 @@
+{
+  "Equal Weight (1/N)": {
+    "total_return": 0.5947533995687957,
+    "annual_return": 0.1700271951446739,
+    "annual_volatility": 0.10722387655342099,
+    "sharpe_ratio": 1.1452726091830778,
+    "sortino_ratio": 1.7613186312344589,
+    "max_drawdown": -0.10396435148489679,
+    "cvar_95": -0.014488589351477864,
+    "final_value": 161730.8537425544
+  },
+  "Buy-and-Hold SPY": {
+    "total_return": 0.862344657385473,
+    "annual_return": 0.23271115988511237,
+    "annual_volatility": 0.15358526954840795,
+    "sharpe_ratio": 1.1785937611350863,
+    "sortino_ratio": 1.6847369589279557,
+    "max_drawdown": -0.187552376732449,
+    "cvar_95": -0.02110287396711961,
+    "final_value": 187672.19375101384
+  },
+  "Vanilla PPO": {
+    "total_return": 0.47692491858717134,
+    "annual_return": 0.1401983345237745,
+    "annual_volatility": 0.10754915624111139,
+    "sharpe_ratio": 0.9018772537575853,
+    "sortino_ratio": 1.353846396646468,
+    "max_drawdown": -0.1084491972073069,
+    "cvar_95": -0.014618534331246418,
+    "final_value": 149781.35683005425
+  },
+  "PPO + DeepAR + TPG": {
+    "total_return": 0.41338734591880266,
+    "annual_return": 0.12345367615080338,
+    "annual_volatility": 0.1040239490466784,
+    "sharpe_ratio": 0.786629247659607,
+    "sortino_ratio": 1.1508704000862253,
+    "max_drawdown": -0.1020314593297984,
+    "cvar_95": -0.01455502322350676,
+    "final_value": 143337.73622064633
+  },
+  "MacroHRL (Ours)": {
+    "total_return": 0.5095693385563111,
+    "annual_return": 0.14861600460976887,
+    "annual_volatility": 0.10439052566301142,
+    "sharpe_ratio": 0.9966055344918607,
+    "sortino_ratio": 1.48745550382494,
+    "max_drawdown": -0.09974521624405058,
+    "cvar_95": -0.014733127138866282,
+    "final_value": 152713.17515123246
+  }
+}

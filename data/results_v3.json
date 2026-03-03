@@ -1,0 +1,57 @@
+{
+  "MacroHRL (Ours)": {
+    "total_return": 0.8505960024499934,
+    "annual_return": 0.09229391726912639,
+    "annual_volatility": 0.14132473187744557,
+    "sharpe_ratio": 0.41273432518332176,
+    "sortino_ratio": 0.44554948004592226,
+    "max_drawdown": -0.28964730022143603,
+    "calmar_ratio": 0.3186424220027857,
+    "cvar_95": -0.021263705156001164,
+    "final_value": 182937.18113097595
+  },
+  "Literature Model": {
+    "total_return": 0.6618359450210511,
+    "annual_return": 0.07556866390120431,
+    "annual_volatility": 0.12457882117551818,
+    "sharpe_ratio": 0.32614244710180423,
+    "sortino_ratio": 0.36436168319744067,
+    "max_drawdown": -0.29641355054359075,
+    "calmar_ratio": 0.2549433511478118,
+    "cvar_95": -0.018757995766157623,
+    "final_value": 165025.11373262445
+  },
+  "Vanilla PPO": {
+    "total_return": 0.8077424611177815,
+    "annual_return": 0.0886296131746378,
+    "annual_volatility": 0.13436838472884596,
+    "sharpe_ratio": 0.40179075401386033,
+    "sortino_ratio": 0.4476097615380626,
+    "max_drawdown": -0.26910948612907065,
+    "calmar_ratio": 0.32934406902374724,
+    "cvar_95": -0.019679569274633737,
+    "final_value": 179514.0525989028
+  },
+  "Equal Weight (1/N)": {
+    "total_return": 1.1712847603839185,
+    "annual_return": 0.11761968040968118,
+    "annual_volatility": 0.13441691694932903,
+    "sharpe_ratio": 0.597299322991804,
+    "sortino_ratio": 0.7120540507118803,
+    "max_drawdown": -0.2543563107084155,
+    "calmar_ratio": 0.4624209247338705,
+    "cvar_95": -0.01963145436884878,
+    "final_value": 215614.85392213697
+  },
+  "Buy-and-Hold SPY": {
+    "total_return": 2.1280862954894273,
+    "annual_return": 0.17770357262770942,
+    "annual_volatility": 0.19768339584497996,
+    "sharpe_ratio": 0.7244214904334237,
+    "sortino_ratio": 0.8478839538505287,
+    "max_drawdown": -0.33717265762879345,
+    "calmar_ratio": 0.5270402822026875,
+    "cvar_95": -0.029903853556020342,
+    "final_value": 305344.13931279693
+  }
+}

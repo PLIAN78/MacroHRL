@@ -119,11 +119,7 @@ ax.text(5.8, 7.1, 'Preprocessing', ha='center', fontsize=11,
 ax.text(10.9, 7.1, 'HRL Framework', ha='center', fontsize=11,
         fontweight='bold', color='#512E5F')
 
-# ── TIMESCALE LABELS ────────────────────────────────────────────────────────
-ax.text(10.9, 6.65, '(Quarterly)', ha='center', fontsize=8.5,
-        color='#7D3C98', style='italic')
-ax.text(10.9, 3.0, '(Daily)', ha='center', fontsize=8.5,
-        color='#C0392B', style='italic')
+# ── TIMESCALE LABELS REMOVED ─────────────────────────────────────────────────
 
 # ── TITLE ───────────────────────────────────────────────────────────────────
 ax.text(6.5, 7.4, 'MacroHRL Architecture', ha='center', fontsize=13,
