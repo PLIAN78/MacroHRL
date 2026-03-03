@@ -1,0 +1,12 @@
+{
+  "blend_regime": 1.0,
+  "blend_mom": 0.0,
+  "blend_noise": 0.0,
+  "cvar_weight": 0.0,
+  "sharpe": 1.1213412320710001,
+  "annual_return": 0.19335021050700507,
+  "annual_volatility": 0.13135375785567954,
+  "sortino": 1.517662265800656,
+  "max_drawdown": -0.1863413388254583,
+  "calmar": 1.037613079983888
+}
