@@ -171,7 +171,7 @@ University of Waterloo
 plian@uwaterloo.ca 
 
 **Tony Xia**
-University of Waterloo
+University of Waterloo  
 t48xia@uwaterloo.ca
 
 ---
