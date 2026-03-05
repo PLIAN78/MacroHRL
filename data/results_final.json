@@ -1,0 +1,42 @@
+{
+  "MacroHRL (Ours)": {
+    "sharpe": 1.205242443175515,
+    "annual_return": 0.19956797808577553,
+    "annual_volatility": 0.12424845076067877,
+    "max_drawdown": -0.23690089019371963,
+    "sortino_ratio": 1.7895776907274152,
+    "calmar_ratio": 0.8424112628812156
+  },
+  "Buy-and-Hold SPY": {
+    "sharpe": 0.7060090688665938,
+    "annual_return": 0.17352412719957266,
+    "annual_volatility": 0.1978462986577028,
+    "max_drawdown": -0.3371726576287934,
+    "sortino_ratio": 0.8214738894061058,
+    "calmar_ratio": 0.5146447176941974
+  },
+  "Equal Weight (1/N)": {
+    "sharpe": 0.5893942064205571,
+    "annual_return": 0.11642890752991364,
+    "annual_volatility": 0.13440824674125032,
+    "max_drawdown": -0.25435631070841463,
+    "sortino_ratio": 0.7015670874474365,
+    "calmar_ratio": 0.4577394097502214
+  },
+  "Flat PPO": {
+    "sharpe": 0.5893942064205545,
+    "annual_return": 0.11642890752991364,
+    "annual_volatility": 0.13440824674125035,
+    "max_drawdown": -0.2543563107084154,
+    "sortino_ratio": 0.7015670874474361,
+    "calmar_ratio": 0.45773940975022004
+  },
+  "Literature Model": {
+    "sharpe": 0.2481766443568819,
+    "annual_return": 0.06505631737565865,
+    "annual_volatility": 0.12367938518010985,
+    "max_drawdown": -0.3081988898851426,
+    "sortino_ratio": 0.2595466528952452,
+    "calmar_ratio": 0.21108550196239634
+  }
+}
