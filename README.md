@@ -2,7 +2,7 @@
 ## A Hierarchical Reinforcement Learning Framework for Risk-Aware Portfolio Management with Drawdown Minimization
 
 **Authors:**  
-Neelesh Nayak, Peter Lian  
+Neelesh Nayak, Peter Lian, Tony Xia
 University of Waterloo  
 
 ---
